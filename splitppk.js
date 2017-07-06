@@ -1,0 +1,1 @@
+require("@cqingwang/react-native-split").default()

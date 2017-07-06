@@ -1,0 +1,20 @@
+{
+  "package": "MultirnBundleSplit",
+  "base": {
+    "index": "./src/base.js",
+    "includes": [
+      "./src/common/*"
+    ]
+  },
+  "custom": [
+      {
+        "name": "main",
+        "index": "./src/packages/main/App.js"
+      },
+   {
+      "name": "active",
+      "index": "./src/packages/active/App.js"
+    }
+
+  ]
+}

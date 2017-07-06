@@ -1,0 +1,93 @@
+__d(/* MultirnBundleSplit/src/packages/main/App.js */function(global, require, module, exports) {var _jsxFileName = '/Users/chan/Documents/Project/MultirnBundleSplit/src/packages/main/App.js';
+
+var _react = require("react/react.js"); // 283 = react
+
+var _react2 = babelHelpers.interopRequireDefault(_react);
+
+var _reactNative = require("react-native/Libraries/react-native/react-native.js"); // 12 = react-native
+
+var _NativeView = require("MultirnBundleSplit/src/common/NativeView.js"); // 404 = ../../common/NativeView
+
+var _NativeView2 = babelHelpers.interopRequireDefault(_NativeView);
+
+var styles = _reactNative.StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: 'yellow'
+  },
+  instructions: {
+    textAlign: 'center',
+    color: '#333333',
+    marginBottom: 5
+  }
+});
+
+var App = function (_React$Component) {
+  babelHelpers.inherits(App, _React$Component);
+
+  function App() {
+    babelHelpers.classCallCheck(this, App);
+    return babelHelpers.possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).apply(this, arguments));
+  }
+
+  babelHelpers.createClass(App, [{
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        _reactNative.View,
+        { style: styles.container, __source: {
+            fileName: _jsxFileName,
+            lineNumber: 32
+          }
+        },
+        _react2.default.createElement(
+          _reactNative.Text,
+          { style: styles.instructions, __source: {
+              fileName: _jsxFileName,
+              lineNumber: 33
+            }
+          },
+          '------------the main page start------------'
+        ),
+        _react2.default.createElement(_NativeView2.default, {
+          style: { width: '100%', height: 200 },
+          componentName: 'active',
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 34
+          }
+        }),
+        _react2.default.createElement(
+          _reactNative.Text,
+          { style: styles.instructions, __source: {
+              fileName: _jsxFileName,
+              lineNumber: 38
+            }
+          },
+          'To get started'
+        ),
+        _react2.default.createElement(
+          _reactNative.Text,
+          { style: styles.instructions, __source: {
+              fileName: _jsxFileName,
+              lineNumber: 39
+            }
+          },
+          '------------main page end------------'
+        )
+      );
+    }
+  }]);
+  return App;
+}(_react2.default.Component);
+
+_reactNative.AppRegistry.registerComponent('main', function () {
+  return App;
+});
+
+module.exports = App;
+}, "MultirnBundleSplit/src/packages/main/App.js", null, "MultirnBundleSplit/src/packages/main/App.js");
+
+require("MultirnBundleSplit/src/packages/main/App.js");
