@@ -30,13 +30,12 @@ class App extends React.Component {
   render() {
     return (
         <View style={styles.container}>
-          <Text style={styles.instructions}>------------the main page start------------</Text>
+          <Text style={styles.instructions}>------------the main pageage use rootview start------------</Text>
             <NativeView
                 style={{width:'100%',height:200}}
                 componentName="active"
             />
-          <Text style={styles.instructions}>To get started</Text>
-          <Text style={styles.instructions}>------------main page end------------</Text>
+          <Text style={styles.instructions}>------------main package end------------</Text>
         </View>
     );
   }

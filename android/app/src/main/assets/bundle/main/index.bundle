@@ -49,7 +49,7 @@ var App = function (_React$Component) {
               lineNumber: 33
             }
           },
-          '------------the main page start------------'
+          '------------the main pageage use rootview start------------'
         ),
         _react2.default.createElement(_NativeView2.default, {
           style: { width: '100%', height: 200 },
@@ -66,16 +66,7 @@ var App = function (_React$Component) {
               lineNumber: 38
             }
           },
-          'To get started'
-        ),
-        _react2.default.createElement(
-          _reactNative.Text,
-          { style: styles.instructions, __source: {
-              fileName: _jsxFileName,
-              lineNumber: 39
-            }
-          },
-          '------------main page end------------'
+          '------------main package end------------'
         )
       );
     }
