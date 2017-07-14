@@ -1,5 +1,6 @@
 # MultirnBundleSplit
-react native split and muli rn instance
+React Native bundle common and business split
+mulirn view instance compose display
 
 
 demo preview
