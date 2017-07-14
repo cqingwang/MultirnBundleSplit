@@ -1,6 +1,7 @@
 # MultirnBundleSplit
 React Native bundle common and business split
-mulirn view instance compose display
+
+Use mulitple ReactRootView compose display
 
 
 demo preview
